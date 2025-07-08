@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 import time
 
 # Loading saved models
-diabetes_model = pickle.load(open('C:/Users/Yashraj Kumar/OneDrive/Desktop/Machine Learning/Projects/Multiple Disease Prediction/diabetes_model.sav', 'rb'))
-heart_model = pickle.load(open('C:/Users/Yashraj Kumar/OneDrive/Desktop/Machine Learning/Projects/Multiple Disease Prediction/heart_model.sav', 'rb'))
-parkinsons_model = pickle.load(open('C:/Users/Yashraj Kumar/OneDrive/Desktop/Machine Learning/Projects/Multiple Disease Prediction/parkinsons_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_model = pickle.load(open('heart_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 # Custom CSS styling
 st.markdown("""
