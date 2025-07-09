@@ -34,5 +34,5 @@ Just enter the required medical parameters, and the app will tell you the predic
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Yashraj2908/multiple-disease-prediction-ml-app.git
+git clone https://github.com/Yashraj0906/multiple-disease-prediction-ml-app.git
 cd multiple-disease-prediction-ml-app
